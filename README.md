@@ -122,7 +122,4 @@ curl -X POST http://localhost:8080/api/customers \
 
 This project demonstrates a clean service-oriented design using JPA relationships and a repository-service-controller structure. The order total is managed in the business layer to keep pricing logic separate from persistence concerns.
 
-## License
-
-This project is for educational/demo purposes.
 
