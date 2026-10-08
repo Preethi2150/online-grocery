@@ -1,0 +1,6 @@
+Modelled a many-to-many relationship between Orders and Grocery Items and a one-to-many relationship between
+Customers and Orders using JPA/Hibernate with a join table, reflecting real-world grocery cart behaviour.
+Implemented auto-computed order total price at the service layer by aggregating line-item prices at order creation,
+keeping business logic decoupled from the persistence layer.
+Applied MVCS layered architecture with dedicated Controller, Service, and Repository classes per entity, using
+interface-driven service contracts for loose coupling and testability.
